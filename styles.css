@@ -643,7 +643,7 @@ body{
     /* GLobal styling */
     .header{
         padding: 25px 15px 25px 15px;  
-        
+
         .menu{
             display: none;
         }
@@ -684,6 +684,13 @@ body{
                     padding-left: auto;
                     position: relative;
                 }
+                .hero-section-subtitle{
+                    justify-content: center;
+
+                    .hero-section-subtitle-line{
+                        display: none;
+                    }
+                }
             }
             .hero-section-imgbox{
                 display: none;
@@ -700,7 +707,15 @@ body{
     }
     .testimonials-section{
         .testimonials-section-container{
-            padding: 50px 25px 50px 25px;
+            padding: 100px 25px 100px 25px;
+
+            .testimonials-grid{
+                gap: 2vw;
+
+                .card1{
+                    display: none;
+                }
+            }
         }
     }
     .contact-section{
