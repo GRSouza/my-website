@@ -684,9 +684,9 @@ body{
             .hero-section-title{
                 display: none;
             }
-            .hero-section-text-box{
-                gap: 25px;
-
+            .hero-section-text-box{                
+                padding: 50px 50px 25px 50px;
+                gap: 15px;
                 
                 .hero-section-title{
                     display:flex;
