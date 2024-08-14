@@ -990,6 +990,10 @@ body{
             padding: 20px;
 
             .project-title-section-content{
+                
+                .project-title{
+                    font-size: 70px;
+                }
                 .project-resume{
                     flex-direction: column;
                     gap: 50px;
